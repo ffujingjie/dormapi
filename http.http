@@ -1,0 +1,17 @@
+###
+@url = http://localhost:3000
+
+###
+GET {{url}}/
+
+###
+GET {{url}}/contact
+
+###
+GET {{url}}/contact/5ca37d81d2b90f30e15b12c0
+
+###
+POST {{url}}/contact
+Content-Type: application/json
+
+{ "firstName": "luan", "lastName": "xxtt" }
